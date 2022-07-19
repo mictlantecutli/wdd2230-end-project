@@ -27,7 +27,7 @@ const output = (temples) => {
 
 const getTemples = async () => {
   const response = await fetch(
-    "https://byui-cse.github.io/cse121b-course/week05/temples.json"
+    "https://github.com/mictlantecutli/wdd230-end-project/jsonFiles/infoTemples.json"
   );
   templeList = await response.json();
   output(templeList);

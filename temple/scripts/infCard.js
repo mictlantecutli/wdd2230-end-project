@@ -28,7 +28,11 @@ const output = (temples) => {
 const getTemples = async () => {
   const response = await fetch(
     "https://github.com/mictlantecutli/wdd230-end-project/jsonFiles/infoTemples.json"
+
+  
   );
+
+  console.log(response)
   templeList = await response.json();
   output(templeList);
 };

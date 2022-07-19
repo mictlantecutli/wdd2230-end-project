@@ -1,0 +1,453 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+}
+
+/*The code for the body*/
+body {
+  background-color: white;
+  max-width: 1160px;
+  margin: 0 auto;
+
+}
+
+/*This is the navigation of the web page*/
+nav {
+  grid-column: 3/4;
+
+
+}
+
+
+nav .menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+
+
+
+}
+
+
+.menu li a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  transition: 0.5s;
+  font-size: clamp(1rem, 2vmin, 1.5rem);
+  border-top: 1px solid rgba(0, 0, 0, .5);
+
+}
+
+.menu li {
+  display: none;
+}
+
+
+.menu li a:hover {
+  background-color: #AEB08E;
+}
+
+.logo_menu .ham {
+  margin: .2rem .5vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: black;
+}
+
+/*This is the code for display the menu in when click in the ham*/
+.responsive li {
+  display: block;
+
+
+}
+
+/*The code for align the header in horizontal*/
+header .logo_menu {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+  align-items: center;
+}
+
+header .logo_menu .logo {
+  width: 100%;
+
+}
+
+h1,
+h2,
+h3 {
+  font-size: 1.5em;
+  display: block;
+  font-family: 'Noto Serif Display', serif;
+}
+
+p,
+span,
+a {
+  font-family: 'Arimo', sans-serif;
+}
+
+
+/**the code for the call to action above the header**/
+
+header .container_btn {
+  background-color: #F4FAFC;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+header .btn_call_action {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #AEB08E;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+
+}
+
+header .btn_call_action a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+
+}
+
+/***********************************************************/
+/*************************footer****************************/
+/***********************************************************/
+
+.footer_above {
+  display: grid;
+  grid-template-columns: 1fr 50px 50px 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-items: right;
+  margin: 30px;
+
+}
+
+
+.footer_above picture img {
+  width: 100%;
+}
+
+.footer_above .face {
+  grid-column: 2/3;
+}
+
+.footer_above .twitter {
+  grid-column: 3/4;
+}
+
+form button.btn_form {
+  border-radius: 1rem;
+}
+
+.footer_above form {
+
+  display: block;
+  grid-row: 2;
+  grid-column: 2/4;
+
+}
+
+.footer_above form .btn_form {
+  padding: 10px 40px;
+
+}
+
+.footer_above form input {
+  padding: 10px 0;
+  margin: 5px 0px;
+
+}
+
+.footer_above {
+  border-top: 1px solid #5f3908;
+  border-bottom: 1px solid #5f3908;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+.footer_down {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+.footer_down .address p,
+h3 {
+  text-align: center;
+}
+
+.footer_down .address {
+  grid-column: 1/2;
+}
+
+.footer_down .contact {
+  grid-column: 2/3;
+
+}
+
+.footer_down .contact p {
+  text-align: center;
+
+}
+
+.footer_down .contact a {
+  text-align: center;
+
+}
+
+
+
+.footer_down .logo_footer {
+  width: 30%;
+  justify-items: center;
+  grid-column: 1/3;
+  grid-row: 2;
+
+
+}
+
+.footer_down .logo_footer img {
+  grid-column: 1;
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+.copyright {
+  text-align: center;
+  border-top: 1px solid #5f3908;
+  padding: 10px 0;
+  margin: 30px;
+
+}
+
+.attribution {
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: rgb(205, 161, 0);
+}
+
+
+
+
+
+/********************************************************/
+/*******************THE CODE FOR MAIN********************/
+/********************************************************/
+
+main .content {
+  background-color: #F5FAFC;
+}
+
+.content .image_full_width img {
+  width: 100%;
+}
+
+.content .temple_main {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.content .temple_main img {
+  width: 100%;
+}
+
+.content section {
+  padding: 20px;
+}
+
+.content section {
+  padding: 20px;
+}
+
+/************************************************************/
+/***************THE SECTION OF EXPLORE TEMPLES***************/
+/************************************************************/
+
+.container_temples {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+
+}
+
+.some_temples h2 {
+  margin-top: 10px;
+}
+
+.some_temples h2 {
+  text-align: center;
+}
+
+.container_temples {
+  background-color: #aeb08e50;
+  padding: 20px;
+
+}
+
+.container_temples picture img {
+  width: 100%;
+  height: 100%;
+
+
+  box-shadow: 3px 3px 10px rgb(54 54 54);
+
+}
+
+.container_temples .temple_01 img {
+  object-fit: cover;
+}
+
+.container_temples .temple_02 {
+  display: none;
+}
+
+/************************************************************/
+/*****************section genealogy*********************/
+/************************************************************/
+
+.section_genealogy img {
+  width: 100%;
+
+}
+
+.section_genealogy {
+  position: relative;
+}
+
+
+.section_genealogy h3 {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+  color: white;
+  font-size: 40px;
+  text-shadow: 0 2px 3px #32292f;
+  ;
+}
+
+.section_genealogy p {
+  font-size: 25px;
+  position: absolute;
+  top: 250px;
+  right: 50px;
+  color: black;
+  background-color: #aeb08e50;
+  padding: 20px;
+
+}
+
+/***********************************************************/
+/***************activities-weather section******************/
+/***********************************************************/
+
+.activities_weather {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+
+}
+
+.activities img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.weather_cards {
+  margin: 10px;
+
+}
+
+
+.weather_cards .weather_01 {
+  background-color: #AEB08E;
+  margin-bottom: 10px;
+}
+
+.weather_cards .weather_02 {
+  background-color: #AEB08E;
+  margin-top: 10px;
+}
+
+.weather_01 .temperature_heading {
+  font-size: 80px;
+}
+
+.weather_01 {
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.weather_01 h2 {
+  padding: 15px;
+
+}
+
+
+.icon_temp img {
+  width: 25%;
+  margin: center;
+}
+
+.humidity_container {
+  font-size: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #5f3908;
+
+}
+
+.weatherDay1 {
+  display: none;
+}
+
+.weather_02 {
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+.weather_02 h2 {
+  padding: 15px;
+}
+
+.weather_02 p {
+  font-size: 15px;
+}

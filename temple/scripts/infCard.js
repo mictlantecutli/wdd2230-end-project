@@ -13,6 +13,7 @@ fetch(requestURL)
     const dataBusiness = jsonObject['directoryOfBusiness'];
     dataBusiness.forEach(displayCompanies);
   });
+  
 
 function displayCompanies(company) {
   // Create elements to add to the document

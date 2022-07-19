@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 60em) {
+  nav .menu li a {
+    padding: .5rem 1rem;
+  }
+
+  header .logo_menu {
+
+    grid-template-columns: 200px 1fr 1fr;
+
+  }
+
+  h1 {
+    font-size: 2.5em;
+
+  }
+
+  /*************************************************************/
+  /****************************FOOTER***************************/
+  /*************************************************************/
+
+
+  .footer_above {
+
+    grid-template-columns: 50px 50px 1fr;
+    gap: 20px;
+
+
+  }
+
+
+  .footer_above picture img {
+    width: 100%;
+  }
+
+
+  .footer_above .twitter {
+    grid-column: 2/3;
+  }
+
+  .footer_above .face {
+    grid-column: 1/2;
+  }
+
+  .footer_above form {
+    grid-row: 1;
+    grid-column: 3/4;
+
+  }
+
+  .footer_above form input {
+    padding: 10px 0;
+    margin: 0 5px;
+
+  }
+
+
+
+
+
+  .footer_down {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    gap: 20px;
+  }
+
+
+
+  .footer_down .address {
+    grid-column: 2/3;
+  }
+
+  .footer_down .contact {
+    grid-column: 3/4;
+
+  }
+
+  .footer_down .logo_footer {
+    grid-row: 1;
+    grid-column: 1/2;
+    justify-items: center;
+    width: 100%;
+
+  }
+
+
+
+  /********************************************************/
+  /*******************THE CODE FOR MAIN********************/
+  /********************************************************/
+  /*The code for the first section*/
+
+
+  .content .temple_main {
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+
+  .container_temples {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .container_temples .temple_02 {
+    display: block;
+  }
+
+
+  /***********************************************************/
+  /***************activities-weather section******************/
+  /***********************************************************/
+  .activities_weather {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .weather_cards {
+
+    grid-template-columns: 1fr;
+
+  }
+
+}

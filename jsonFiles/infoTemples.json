@@ -1,25 +1,88 @@
 {
-    "templeInformation":[
-  
-  {
-      "templeName": "Brigham City Utah Temple",
-      "location": "Brigham City, Utah, United States",
-      "dedicated": "23 September 2012",
-      "imageUrl": "https://assets.ldscdn.org/93/92/9392e6adee3d1aa025548de1a852a27ad8ea40f4/brigham_city_utah_temple_dawn.jpeg"
-  },
-  {
-      "templeName": "Cedar City Utah Temple",
-      "location": "Cedar City, Utah, United States",
-      "dedicated": "10 December 2017",
-      "imageUrl": "https://assets.ldscdn.org/b2/89/b2891eb1787414ec6995a32c42d03981732c2d6a/cedar_city_utah_temple_exterior.jpeg"
-  },
-  {
-      "templeName": "Draper Utah Temple",
-      "location": "Draper, Utah, United States",
-      "dedicated": "20 March 2009",
-      "imageUrl": "https://assets.ldscdn.org/9d/dc/9ddc03f577e4395b3408d00dcc874fb6b74b36de/draper_utah_temple.jpeg"
+    "directoryOfBusiness": [
+    {
+        "name": "chilakil food",
+        "address": "Palmas 56, Plutarco Elias, Ags, Ags ",
+        "phone": "(449)345-9343",
+        "website": "www.chilakil.com",
+        "logoImage": "chilakil_logo.webp",
+        "membership": "Bronze Level",
+        "msjSpot": "Mexican food"
+        
+    },
+    {
+        "name": "Xochitl Textile",
+        "address": "Monte Uranio 345, Barrancas, Mty, NL",
+        "phone": "(81)4835-234",
+        "website": "www.xochitl.com",
+        "logoImage": "textile_logo.webp",
+        "membership": "Gold Level",
+        "msjSpot": "Dress like a lily"
+    },
+    {
+        "name": "Life and Health",
+        "address": "Ciudad Azteca 21, Tenochtitlán, Oaxaca, Oax.",
+        "phone": "(95)4857-3243",
+        "website": "www.lifehealth.com",
+        "logoImage": "life_health.webp",
+        "membership": "Gold Level",
+        "msjSpot": "Your health is your food"
+    },
+    {
+        "name": "Itztic Ice Traditional",
+        "address": "Everardo Márquez 42, Culturas, Pachuca, Hidalgo",
+        "phone": "(771)9242-023",
+        "website": "www.itzticice.com",
+        "logoImage": "ice_traditional.webp",
+        "membership": "Bronze Level",
+        "msjSpot": "Refresh your ideas"
+    },
+    {
+        "name": "Camping El Cedral",
+        "address": "Huasca 755, San Miguel, San Luis Potosí, SLP",
+        "phone": "(444)3732-292",
+        "website": "www.campingcedral.com",
+        "logoImage": "camping_cedral.webp",
+        "membership": "Gold Level",
+        "msjSpot": "Make nature change you"
+    },
+    {
+        "name": "Nikté Florist",
+        "address": "Adelita 54, El carruaje, Fresnillo, Zacatecas",
+        "phone": "(493)2131-432",
+        "website": "www.nikteflorist.com",
+        "logoImage": "nikte_florist.webp",
+        "membership": "Bronze Level",
+        "msjSpot": "fill you life of colors"
+    },
+    {
+        "name": "Pastes Tuzos",
+        "address": "Real del Monte, Mineros, Caborca, Sonora",
+        "phone": "(637)9234-325",
+        "website": "www.pastestuzos.com",
+        "logoImage": "pastes_tuzos.webp",
+        "membership": "Silver Level",
+        "msjSpot": "The best flavor of Mexico"
+    },
+    {
+        "name": "Ahuiaca Fragrances",
+        "address": "Gertrudis 32, Poblamiento, Guadalajara, Jal.",
+        "phone": "(33)2341-5434",
+        "website": "www.fragrancesahua.com",
+        "logoImage": "fragrances_ahua.webp",
+        "membership": "Gold Level",
+        "msjSpot": "Make history with your presence"
+    },
+    {
+        "name": "Trigo Traditional Loaf",
+        "address": "Zacualtipán 331, Caminos, Huejutla, Hidalgo",
+        "phone": "(789)3242-434",
+        "website": "www.trigoloaf.com",
+        "logoImage": "traditional_loaf.webp",
+        "membership": "Bronze Level",
+        "msjSpot": "Your company in the morning"
+    }
+  ]
   }
-
-]
-}
+  
   

@@ -451,3 +451,22 @@ main .content {
 .weather_02 p {
   font-size: 15px;
 }
+
+/************************************************************/
+/**********************PAGE TEMPLE MAIN**********************/
+/************************************************************/
+
+.temple_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+}
+
+
+.temple_cards section {
+  background-color: #AEB08E;
+  margin: 20px;
+  border-radius: 15px;
+
+}

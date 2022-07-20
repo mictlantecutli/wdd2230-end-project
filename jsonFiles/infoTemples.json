@@ -6,9 +6,9 @@
             "email": "BROUG-OFF@ChurchofJesusChrist.org",
             "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "No distribution center nearby"],
             "history": ["14 October 1998-Announced", "8 May 1999 - Groundbreaking", "16 July 2000 - Dedicated", "17 November 2019 - Rededicated"],
-            "ordinance schelude": "Please contact the Temple to schedule living ordinances in the Baton Rouge Louisiana Temple. BROUG-OFF@ChurchofJesusChrist.org, (1) 225-769-1197",
-            "session schelude": ["9:00 AM - Regular Session", "9:30 AM - Regular Session", "10:00 AM - Regular Session", "10:30 AM - Regular Session", "12:00 PM - Regular Session", "12:30 PM - Regular Session", "5:30 PM - Regular Session", "6:00 PM - Regular Session", "7:00 PM - Regular Session", "7:30 PM - Regular Session"],
-            "temple closure schelude": ["Saturday, 1 October 2022", "Monday, 31 October 2022 - Monday, 14 November 2022", "Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022 - Monday, 26 December 2022", "Saturday, 31 December 2022 - Monday, 2 January 2023"]
+            "ordinance": "Please contact the Temple to schedule living ordinances in the Baton Rouge Louisiana Temple. BROUG-OFF@ChurchofJesusChrist.org, (1) 225-769-1197",
+            "session": ["9:00 AM - Regular Session", "9:30 AM - Regular Session", "10:00 AM - Regular Session", "10:30 AM - Regular Session", "12:00 PM - Regular Session", "12:30 PM - Regular Session", "5:30 PM - Regular Session", "6:00 PM - Regular Session", "7:00 PM - Regular Session", "7:30 PM - Regular Session"],
+            "closure": ["Saturday, 1 October 2022", "Monday, 31 October 2022 - Monday, 14 November 2022", "Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022 - Monday, 26 December 2022", "Saturday, 31 December 2022 - Monday, 2 January 2023"]
         },
         {
             "name": "Barranquilla Colombia Temple",
@@ -17,9 +17,9 @@
             "email": "BARRA-OFF@ChurchofJesusChrist.org",
             "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
             "history": ["1 October 2011 - Announced", "20 February 2016 - Groundbreaking", "9 December 2018 - Dedicated"],
-            "ordinance schelude": "Please contact the Temple to schedule living ordinances in the Barranquilla Colombia Temple. BARRA-OFF@ChurchofJesusChrist.org, (57) 5-310-0200",
-            "session schelude": ["10:00 AM - Spanish Language Session", "4:30 PM - Spanish Language Session", "5:00 PM - Spanish Language Session", "5:30 PM - Spanish Language Session", "6:30 PM - Spanish Language Session"],
-            "temple closure schelude": ["Saturday, 1 October 2022", "Monday, 17 October 2022 - Monday, 31 October 2022", "Thursday, 8 December 2022", "Saturday, 24 December 2022 - Sunday, 25 December 2022", "Saturday, 31 December 2022 - Sunday, 1 January 2023"]
+            "ordinance": "Please contact the Temple to schedule living ordinances in the Barranquilla Colombia Temple. BARRA-OFF@ChurchofJesusChrist.org, (57) 5-310-0200",
+            "session": ["10:00 AM - Spanish Language Session", "4:30 PM - Spanish Language Session", "5:00 PM - Spanish Language Session", "5:30 PM - Spanish Language Session", "6:30 PM - Spanish Language Session"],
+            "closure": ["Saturday, 1 October 2022", "Monday, 17 October 2022 - Monday, 31 October 2022", "Thursday, 8 December 2022", "Saturday, 24 December 2022 - Sunday, 25 December 2022", "Saturday, 31 December 2022 - Sunday, 1 January 2023"]
         },
         {
             "name": "Oaxaca Mexico Temple",
@@ -28,9 +28,9 @@
             "email": "OAXAC-OFF@ChurchofJesusChrist.org",
             "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
             "history": ["23 February 1999 - Announced", "13 March 1999 - Groundbreaking", "11 March 2000 - Dedicated"],
-            "ordinance schelude": "Please contact the Temple to schedule living ordinances in the Oaxaca Mexico Temple. OAXAC-OFF@ChurchofJesusChrist.org, (52) 951-516-9588",
-            "session schelude": ["10:30 AM - Regular Session", "11:00 AM - Regular Session", "5:30 PM - Regular Session", "6:00 PM - Regular Session", "6:30 PM - Regular Session", "7:00 PM - Regular Session"],
-            "temple closure schelude": ["Monday, 29 August 2022 - Monday, 12 September 2022", "Saturday, 1 October 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"]
+            "ordinance": "Please contact the Temple to schedule living ordinances in the Oaxaca Mexico Temple. OAXAC-OFF@ChurchofJesusChrist.org, (52) 951-516-9588",
+            "session": ["10:30 AM - Regular Session", "11:00 AM - Regular Session", "5:30 PM - Regular Session", "6:00 PM - Regular Session", "6:30 PM - Regular Session", "7:00 PM - Regular Session"],
+            "closure": ["Monday, 29 August 2022 - Monday, 12 September 2022", "Saturday, 1 October 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"]
         },
         {
             "name": "Mexico City Mexico Temple",
@@ -39,9 +39,9 @@
             "email": "MEXIC-THO@ChurchofJesusChrist.org",
             "services": ["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"],
             "history": ["3 April 1976 - Announced", "25 November 1979 - Groundbreaking", "2 December 1983 - Dedicated", "16 November 2008 - Rededicated", "13 September 2015 - Rededicated"],
-            "ordinance schelude": "Please contact the Temple to schedule living ordinances in the Mexico City Mexico Temple. MEXIC-OFF@ChurchofJesusChrist.org, (52) 55-5003-3700",
-            "session schelude": ["8:30 AM - Spanish Language Session", "9:30 AM - Regular Session", "10:30 AM - Regular Session", "11:30 AM - Regular Session", "12:30 PM - Regular Session", "2:30 PM - Regular Session", "3:30 PM - Regular Session", "4:30 PM - (Time Full)", "5:30 PM - Regular Session", "6:30 PM - Regular Session"],
-            "temple closure schelude": ["Saturday, 1 October 2022", "Saturday, 24 December 2022 - Sunday, 25 December 2022", "Saturday, 31 December 2022"]
+            "ordinance": "Please contact the Temple to schedule living ordinances in the Mexico City Mexico Temple. MEXIC-OFF@ChurchofJesusChrist.org, (52) 55-5003-3700",
+            "session": ["8:30 AM - Spanish Language Session", "9:30 AM - Regular Session", "10:30 AM - Regular Session", "11:30 AM - Regular Session", "12:30 PM - Regular Session", "2:30 PM - Regular Session", "3:30 PM - Regular Session", "4:30 PM - (Time Full)", "5:30 PM - Regular Session", "6:30 PM - Regular Session"],
+            "closure": ["Saturday, 1 October 2022", "Saturday, 24 December 2022 - Sunday, 25 December 2022", "Saturday, 31 December 2022"]
         }
     ]
 }

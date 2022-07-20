@@ -1,88 +1,47 @@
 {
-    "directoryOfBusiness": [
-    {
-        "name": "chilakil food",
-        "address": "Palmas 56, Plutarco Elias, Ags, Ags ",
-        "phone": "(449)345-9343",
-        "website": "www.chilakil.com",
-        "logoImage": "chilakil_logo.webp",
-        "membership": "Bronze Level",
-        "msjSpot": "Mexican food"
-        
-    },
-    {
-        "name": "Xochitl Textile",
-        "address": "Monte Uranio 345, Barrancas, Mty, NL",
-        "phone": "(81)4835-234",
-        "website": "www.xochitl.com",
-        "logoImage": "textile_logo.webp",
-        "membership": "Gold Level",
-        "msjSpot": "Dress like a lily"
-    },
-    {
-        "name": "Life and Health",
-        "address": "Ciudad Azteca 21, Tenochtitlán, Oaxaca, Oax.",
-        "phone": "(95)4857-3243",
-        "website": "www.lifehealth.com",
-        "logoImage": "life_health.webp",
-        "membership": "Gold Level",
-        "msjSpot": "Your health is your food"
-    },
-    {
-        "name": "Itztic Ice Traditional",
-        "address": "Everardo Márquez 42, Culturas, Pachuca, Hidalgo",
-        "phone": "(771)9242-023",
-        "website": "www.itzticice.com",
-        "logoImage": "ice_traditional.webp",
-        "membership": "Bronze Level",
-        "msjSpot": "Refresh your ideas"
-    },
-    {
-        "name": "Camping El Cedral",
-        "address": "Huasca 755, San Miguel, San Luis Potosí, SLP",
-        "phone": "(444)3732-292",
-        "website": "www.campingcedral.com",
-        "logoImage": "camping_cedral.webp",
-        "membership": "Gold Level",
-        "msjSpot": "Make nature change you"
-    },
-    {
-        "name": "Nikté Florist",
-        "address": "Adelita 54, El carruaje, Fresnillo, Zacatecas",
-        "phone": "(493)2131-432",
-        "website": "www.nikteflorist.com",
-        "logoImage": "nikte_florist.webp",
-        "membership": "Bronze Level",
-        "msjSpot": "fill you life of colors"
-    },
-    {
-        "name": "Pastes Tuzos",
-        "address": "Real del Monte, Mineros, Caborca, Sonora",
-        "phone": "(637)9234-325",
-        "website": "www.pastestuzos.com",
-        "logoImage": "pastes_tuzos.webp",
-        "membership": "Silver Level",
-        "msjSpot": "The best flavor of Mexico"
-    },
-    {
-        "name": "Ahuiaca Fragrances",
-        "address": "Gertrudis 32, Poblamiento, Guadalajara, Jal.",
-        "phone": "(33)2341-5434",
-        "website": "www.fragrancesahua.com",
-        "logoImage": "fragrances_ahua.webp",
-        "membership": "Gold Level",
-        "msjSpot": "Make history with your presence"
-    },
-    {
-        "name": "Trigo Traditional Loaf",
-        "address": "Zacualtipán 331, Caminos, Huejutla, Hidalgo",
-        "phone": "(789)3242-434",
-        "website": "www.trigoloaf.com",
-        "logoImage": "traditional_loaf.webp",
-        "membership": "Bronze Level",
-        "msjSpot": "Your company in the morning"
-    }
-  ]
-  }
-  
-  
+    "directoryTemples": [{
+            "name": "Templo de Baton Rouge, Luisiana",
+            "address": "10339 Highland Rd, Baton Rouge LA 70810, United States",
+            "phone": "(1) 225-769-1197",
+            "email": "BROUG-OFF@ChurchofJesusChrist.org",
+            "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "No distribution center nearby"],
+            "history": ["14 October 1998-Announced", "8 May 1999 - Groundbreaking", "16 July 2000 - Dedicated", "17 November 2019 - Rededicated"],
+            "ordinance schelude": "Please contact the Temple to schedule living ordinances in the Baton Rouge Louisiana Temple. BROUG-OFF@ChurchofJesusChrist.org, (1) 225-769-1197",
+            "session schelude": ["9:00 AM - Regular Session", "9:30 AM - Regular Session", "10:00 AM - Regular Session", "10:30 AM - Regular Session", "12:00 PM - Regular Session", "12:30 PM - Regular Session", "5:30 PM - Regular Session", "6:00 PM - Regular Session", "7:00 PM - Regular Session", "7:30 PM - Regular Session"],
+            "temple closure schelude": ["Saturday, 1 October 2022", "Monday, 31 October 2022 - Monday, 14 November 2022", "Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022 - Monday, 26 December 2022", "Saturday, 31 December 2022 - Monday, 2 January 2023"]
+        },
+        {
+            "name": "Barranquilla Colombia Temple",
+            "address": "Carrera 46 via al mar pr 107, Sentido: de Barranquilla a Cartagena, Barranquilla Atlantico, Colombia",
+            "phone": "(57) 5-310-0200",
+            "email": "BARRA-OFF@ChurchofJesusChrist.org",
+            "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "history": ["1 October 2011 - Announced", "20 February 2016 - Groundbreaking", "9 December 2018 - Dedicated"],
+            "ordinance schelude": "Please contact the Temple to schedule living ordinances in the Barranquilla Colombia Temple. BARRA-OFF@ChurchofJesusChrist.org, (57) 5-310-0200",
+            "session schelude": ["10:00 AM - Spanish Language Session", "4:30 PM - Spanish Language Session", "5:00 PM - Spanish Language Session", "5:30 PM - Spanish Language Session", "6:30 PM - Spanish Language Session"],
+            "temple closure schelude": ["Saturday, 1 October 2022", "Monday, 17 October 2022 - Monday, 31 October 2022", "Thursday, 8 December 2022", "Saturday, 24 December 2022 - Sunday, 25 December 2022", "Saturday, 31 December 2022 - Sunday, 1 January 2023"]
+        },
+        {
+            "name": "Oaxaca Mexico Temple",
+            "address": "Av. Universidad # 139, Fracc.Real de Candiani 68130, Oaxaca, Oaxaca, Mexico ",
+            "phone": "(52) 951-516-9588",
+            "email": "OAXAC-OFF@ChurchofJesusChrist.org",
+            "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "history": ["23 February 1999 - Announced", "13 March 1999 - Groundbreaking", "11 March 2000 - Dedicated"],
+            "ordinance schelude": "Please contact the Temple to schedule living ordinances in the Oaxaca Mexico Temple. OAXAC-OFF@ChurchofJesusChrist.org, (52) 951-516-9588",
+            "session schelude": ["10:30 AM - Regular Session", "11:00 AM - Regular Session", "5:30 PM - Regular Session", "6:00 PM - Regular Session", "6:30 PM - Regular Session", "7:00 PM - Regular Session"],
+            "temple closure schelude": ["Monday, 29 August 2022 - Monday, 12 September 2022", "Saturday, 1 October 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"]
+        },
+        {
+            "name": "Mexico City Mexico Temple",
+            "address": "Avenida 510 #90, Col. San Juan de Aragon 07950 México, Distrito Federal, Mexico",
+            "phone": "(52) 55-5003-3700",
+            "email": "MEXIC-THO@ChurchofJesusChrist.org",
+            "services": ["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"],
+            "history": ["3 April 1976 - Announced", "25 November 1979 - Groundbreaking", "2 December 1983 - Dedicated", "16 November 2008 - Rededicated", "13 September 2015 - Rededicated"],
+            "ordinance schelude": "Please contact the Temple to schedule living ordinances in the Mexico City Mexico Temple. MEXIC-OFF@ChurchofJesusChrist.org, (52) 55-5003-3700",
+            "session schelude": ["8:30 AM - Spanish Language Session", "9:30 AM - Regular Session", "10:30 AM - Regular Session", "11:30 AM - Regular Session", "12:30 PM - Regular Session", "2:30 PM - Regular Session", "3:30 PM - Regular Session", "4:30 PM - (Time Full)", "5:30 PM - Regular Session", "6:30 PM - Regular Session"],
+            "temple closure schelude": ["Saturday, 1 October 2022", "Saturday, 24 December 2022 - Sunday, 25 December 2022", "Saturday, 31 December 2022"]
+        }
+    ]
+}

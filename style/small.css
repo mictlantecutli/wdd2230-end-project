@@ -29,9 +29,6 @@ nav .menu {
   padding: 0;
   margin: 0;
 
-
-
-
 }
 
 
@@ -44,7 +41,7 @@ nav .menu {
   font-weight: 700;
   transition: 0.5s;
   font-size: clamp(1rem, 2vmin, 1.5rem);
-  border-top: 1px solid rgba(0, 0, 0, .5);
+  /*border-top: 1px solid rgba(0, 0, 0, .5);*/
 
 }
 
@@ -65,6 +62,34 @@ nav .menu {
   color: black;
 }
 
+/*here start the code of submenu*/
+
+.menu li ul {
+
+  display: none;
+
+}
+
+.menu li ul li {
+  /*border-top: 1px solid #5f3908;*/
+  text-align: left;
+}
+
+.menu li ul li a {
+  text-align: left;
+
+}
+
+.menu li:hover>ul {
+  display: block;
+  background-color: #F5FAFC;
+
+}
+
+/*finish the code of submenu*/
+
+
+
 /*This is the code for display the menu in when click in the ham*/
 .responsive li {
   display: block;
@@ -77,6 +102,10 @@ header .logo_menu {
   display: grid;
   grid-template-columns: 100px 1fr 1fr;
   align-items: center;
+  box-shadow: 3px 3px 10px rgb(54 54 54);
+  border-bottom: 1px solid rgba(173, 172, 172, 0.598);
+
+
 }
 
 header .logo_menu .logo {
@@ -90,7 +119,10 @@ h3 {
   font-size: 1.5em;
   display: block;
   font-family: 'Noto Serif Display', serif;
+
 }
+
+
 
 p,
 span,
@@ -115,10 +147,15 @@ header .btn_call_action {
   margin: 0 auto;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #AEB08E;
+  background-color: #E7BF0A;
   border-radius: 5px 5px 5px 5px;
   text-align: center;
 
+}
+
+.btn_call_action:hover {
+  background-color: #f0d781;
+  cursor: pointer;
 }
 
 header .btn_call_action a {
@@ -160,8 +197,13 @@ form button.btn_form {
   border-radius: 1rem;
 }
 
-.footer_above form {
+form .join_us {
+  display: grid;
+  justify-content: center;
+}
 
+
+.footer_above form {
   display: block;
   grid-row: 2;
   grid-column: 2/4;
@@ -269,6 +311,12 @@ h3 {
 
 main .content {
   background-color: #F5FAFC;
+  margin-top: 20px;
+
+}
+
+main h2 {
+  text-align: center;
 }
 
 .content .image_full_width img {
@@ -280,6 +328,14 @@ main .content {
   grid-template-columns: 1fr;
   align-items: center;
   margin: 10px 10px;
+}
+
+.content .temple_main h2 {
+  text-align: center;
+}
+
+.content .temple_main .info_temple {
+  padding: 15px;
 }
 
 .content .temple_main img {
@@ -327,6 +383,14 @@ main .content {
   box-shadow: 3px 3px 10px rgb(54 54 54);
 
 }
+
+/************the effect in the cards of temples***************/
+.container_temples picture img:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+/************************************************************/
+
 
 .container_temples .temple_01 img {
   object-fit: cover;

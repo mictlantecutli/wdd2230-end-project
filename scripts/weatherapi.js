@@ -5,7 +5,7 @@ const weatherIcon = document.querySelector('#icon_weather');
 
 
 
-const requestURL = "https://api.openweathermap.org/data/2.5/onecall?lat=19.42&lon=-99.12&units=imperial&appid=04adae9f3166a0116b9cc43d5555888f";
+const requestURL = "https://api.openweathermap.org/data/2.5/onecall?lat=38.98&lon=-77.10&units=imperial&appid=04adae9f3166a0116b9cc43d5555888f";
 
 
 

@@ -32,18 +32,6 @@
 
   }
 
-
-
-  .menu li a {
-    border: none;
-    border-right: 1px solid rgba(0, 0, 0, .3);
-  }
-
-  .menu li {
-    display: block;
-  }
-
-  /**********SUBMENU**************/
   .menu li a {
     border: none;
     /*border-right: 1px solid rgba(0, 0, 0, .3);*/
@@ -53,7 +41,16 @@
     position: absolute;
   }
 
-  /***************************/
+
+
+  .menu li a {
+    border: none;
+    /*border-right: 1px solid rgba(0, 0, 0, .3);*/
+  }
+
+  .menu li {
+    display: block;
+  }
 
   h1 {
     font-size: 2em;
@@ -176,16 +173,6 @@
 
   .weather_cards .weather_02 {
     margin-top: 0px;
-  }
-
-
-  /************************************************************/
-  /**********************PAGE TEMPLE MAIN**********************/
-  /************************************************************/
-  .temple_cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
   }
 
 

@@ -103,8 +103,9 @@ header .logo_menu {
   display: grid;
   grid-template-columns: 100px 1fr 1fr;
   align-items: center;
-  box-shadow: 3px 3px 10px rgb(54 54 54);
   border-bottom: 1px solid rgba(173, 172, 172, 0.598);
+  box-shadow: 3px 3px 10px rgb(54 54 54);
+
 }
 
 header .logo_menu .logo {
@@ -114,7 +115,9 @@ header .logo_menu .logo {
 
 h1,
 h2,
-h3 {
+h3,
+legend,
+label {
   font-size: 1.5em;
   display: block;
   font-family: 'Noto Serif Display', serif;
@@ -193,7 +196,15 @@ form button.btn_form {
   border-radius: 1rem;
 }
 
+form .join_us {
+  display: grid;
+  justify-content: center;
+}
 
+form .join_us h4 {
+  color: black;
+  font-size: 15px;
+}
 
 .footer_above form {
 
@@ -304,7 +315,6 @@ h3 {
 
 main .content {
   background-color: #F5FAFC;
-  margin-top: 20px;
 }
 
 .content .image_full_width img {
@@ -328,6 +338,10 @@ main .content {
 
 .content section {
   padding: 20px;
+}
+
+.content h2 {
+  text-align: center;
 }
 
 /************************************************************/
@@ -488,80 +502,111 @@ main .content {
   font-size: 15px;
 }
 
-/************************************************************/
-/**********************PAGE TEMPLE MAIN**********************/
-/************************************************************/
-
-.content h2 {
-  text-align: center;
-}
 
 
+/*************************************************/
+/************THIS IS THE CODE FOR FORM************/
+/*************************************************/
 
-.temple_cards section h2 {
-  text-align: center;
-  padding-bottom: 15px;
-  font-size: 30px;
-}
-
-.temple_cards section p {
-  text-align: center;
-
-}
-
-.temple_cards section h3 {
-  font-size: 19px;
-  padding-bottom: 10px;
-
-}
-
-.temple_cards section div {
-
-  border-top: 1px solid #5f3908;
-  padding-bottom: 30px;
-  padding-top: 20px;
-}
-
-.temple_cards section div:first-child {
-  background-color: #c8e7f499;
-  box-shadow: 3px 3px 10px rgb(54 54 54);
-  border-top: none;
-
-}
-
-.temple_cards section div:nth-child(2) {
-  padding-top: 20px;
-
-  border-top: none;
-}
-
-
-.temple_cards section {
-  background-color: #AEB08E;
-  margin: 20px;
-  border-radius: 15px;
-
-}
-
-
-.temple_cards section .containerLike {
+form {
+  max-width: 45rem;
   margin: 0 auto;
-  text-align: center;
+
+
 }
 
-.temple_cards button {
-  background-color: transparent;
+
+
+
+form fieldset {
+  margin: 2rem 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: .5rem 2%;
+  background-color: #AEB08E;
+  box-shadow: 3px 3px 10px rgb(80, 78, 78)
+}
+
+form legend {
+  color: rgb(252, 252, 252);
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  background-color: #5f3908;
+  font-size: 24px;
+  border: 1px solid black;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: red;
+  font-size: .8rem;
+}
+
+form label.top input,
+form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: white;
+}
+
+form label.top textarea {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: white;
+
+}
+
+
+
+form input.submitBtn {
+
   border: none;
-  cursor: pointer;
+  background-color: #E7BF0A;
+  color: black;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
 
+  width: 300px;
+  font-size: 20px;
 }
 
-.temple_cards button img:hover {
+input.submitBtn:hover {
   background-color: #f0d781;
-
+  cursor: pointer;
 }
 
-.temple_cards button img {
-  width: 30%;
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: #32292f;
+}
 
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+.button_book {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 20px;
 }

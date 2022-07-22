@@ -496,7 +496,13 @@ main .content {
   text-align: center;
 }
 
+.temple_cards section {
 
+  padding: 40px;
+  box-shadow: 3px 3px 10px rgb(54 54 54);
+
+
+}
 
 .temple_cards section h2 {
   text-align: center;
@@ -536,6 +542,10 @@ main .content {
 }
 
 
+
+
+
+
 .temple_cards section {
   background-color: #AEB08E;
   margin: 20px;
@@ -544,24 +554,57 @@ main .content {
 }
 
 
-.temple_cards section .containerLike {
-  margin: 0 auto;
-  text-align: center;
+/************************************************************/
+/**********************PAGE reception **********************/
+/************************************************************/
+
+
+.content .place_reception {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin: 10px 10px;
+  gap: 15px;
 }
 
-.temple_cards button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-
+.content .image_place_reception img {
+  width: 100%;
 }
 
-.temple_cards button img:hover {
-  background-color: #f0d781;
-
+.content .image_place_reception img {
+  grid-column: 1/2;
 }
 
-.temple_cards button img {
-  width: 30%;
 
+/************************************************************/
+/**********************packages of PAGE reception **********************/
+/************************************************************/
+
+
+
+
+.wedding_packages {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.wedding_packages h2 {
+  grid-column: 1/4;
+}
+
+.card_package {
+  display: grid;
+  grid-template-columns: 1fr;
+  box-shadow: 3px 3px 10px rgb(54 54 54);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.card_package img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card_package .card_content {
+  padding: 15px;
 }

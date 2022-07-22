@@ -11,7 +11,7 @@
 
   header .logo_menu {
 
-    grid-template-columns: 200px 1fr 1fr;
+    grid-template-columns: 200px 1fr 1fr 50px;
 
   }
 
@@ -121,6 +121,17 @@
   .weather_cards {
 
     grid-template-columns: 1fr;
+
+  }
+
+
+  /************************************************************/
+  /**********************PAGE TEMPLE MAIN**********************/
+  /************************************************************/
+
+  .temple_cards {
+
+    grid-template-columns: 1fr 1fr;
 
   }
 

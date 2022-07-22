@@ -9,10 +9,6 @@
     padding: .5rem 1rem;
   }
 
-
-
-
-
   header .logo_menu {
 
     grid-template-columns: 200px 1fr 1fr 50px;
@@ -127,5 +123,56 @@
     grid-template-columns: 1fr;
 
   }
+
+
+  /************************************************************/
+  /**********************PAGE TEMPLE MAIN**********************/
+  /************************************************************/
+
+  .temple_cards {
+
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+
+
+  /************************************************************/
+  /**********************PAGE reception **********************/
+  /************************************************************/
+
+  .content .place_reception {
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .content .info_reception {
+    grid-template-columns: 2/3;
+    grid-row: 1;
+
+  }
+
+
+  .content .image_place_reception {
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+
+
+
+  .wedding_packages {
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+
+
+
+
+
+
+
+
+
 
 }

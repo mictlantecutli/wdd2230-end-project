@@ -77,10 +77,6 @@
   /**********************************************************/
   /***************THE CODE FOR FOOTER***********************/
 
-  .footer_above {
-    grid-template-columns: 1fr 50px 50px 1fr;
-    justify-items: center;
-  }
 
 
 

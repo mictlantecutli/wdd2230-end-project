@@ -65,7 +65,7 @@
     <div class="content">
       <h2>Reception</h2>
 
-      <section class="image_full_width">
+      <div class="image_full_width">
         <picture>
           <source srcset="images/receptions.webp" media="(min-width: 960px)">
           <source srcset="images/reception_medium.webp" media="(min-width: 640px) and (max-width: 959px)">
@@ -73,7 +73,7 @@
 
           <img src="images/reception_small.webp" alt="image of the room of the hotel">
         </picture>
-      </section>
+      </div>
 
       <section class="place_reception">
         <div class="info_reception">
@@ -96,7 +96,7 @@
 
 
       <h2>Wedding Packages</h2>
-      <section class="wedding_packages">
+      <div class="wedding_packages">
 
 
         <div class="card_package one">
@@ -107,7 +107,7 @@
           </div>
           <article>
             <div class="card_content">
-              <h1>Wedding Gold</h1>
+              <h2>Wedding Gold</h2>
               <p>Decorated with white canvas.
                 White chairs for the ceremony.
                 Centerpiece with national seasonal flowers
@@ -129,7 +129,7 @@
           </div>
           <article>
             <div class="card_content">
-              <h1>Wedding Esmerald</h1>
+              <h2>Wedding Esmerald</h2>
               <p>This package includes decoration, wedding cake and much more.
                 Private reception in a banquet hall for three hours with a special menu and waiter service.
                 Centerpiece for the ceremony (roses)
@@ -148,7 +148,7 @@
           </div>
           <article>
             <div class="card_content">
-              <h1>Wedding Sapphire</h1>
+              <h2>Wedding Sapphire</h2>
               <p>Manicure and Pedicure with lavender essential oils for the bride. Mariachi (musicians playing Mexican
                 music for an hour during the ceremony). Special beauty salon package for the bride (hair and makeup)
                 accompanied by strawberries, and all of the Esmerald Package.</p>
@@ -166,7 +166,7 @@
           </div>
           <article>
             <div class="card_content">
-              <h1>Wedding Diamond</h1>
+              <h2>Wedding Diamond</h2>
               <p>
                 Use of private location for reception for 5 hours.
                 Plated dinner or Buffet (Terms and conditions subject to each Resort).
@@ -198,7 +198,7 @@
 
         </div>
 
-      </section>
+      </div>
 
 
 
@@ -208,27 +208,30 @@
   <!--Finish MAIN RECEPTION-->
 
   <footer>
-    <section class="footer_above">
-      <a href="https://www.facebook.com/moises.parra.52206/"><picture class="face"><img src="../../images/icon_face.png" alt="image of social facebook"></picture></a>
-      <a href="https://twitter.com/?lang=es"><picture class="twitter"><img src="../../images/icon_twitter.png" alt="image of social twitter"></picture></a>
+    <div class="footer_above">
+      <a class="face" href="https://www.facebook.com/moises.parra.52206/">
+        <picture class="face"><img src="../../images/icon_face.png" alt="image of social facebook"></picture>
+      </a>
+      <a class="twitter" href="https://twitter.com/?lang=es">
+        <picture class="twitter"><img src="../../images/icon_twitter.png" alt="image of social twitter"></picture>
+      </a>
 
 
       <form method="get" action="../../contact-us/contact-us.html">
 
         <div class="join_us">
-          <legend>FOR MORE DETAILS</legend>
+          <h2>FOR MORE DETAILS</h2>
         </div>
 
         <input type="text" name="fname" placeholder="Your Name*" required>
 
 
         <input type="text" name="email" placeholder="Your Email*" required>
-        <input type="code" name="zipCode" placeholder="Zip Code*">
-
+        <input type="text" name="zipCode" pattern="[0-9]{5}" placeholder="Zip Code*">
         <button class="btn_form" type="submit" value="submit">Contact Us!</button>
 
       </form>
-    </section>
+    </div>
 
     <section class="footer_down">
       <picture class="logo_footer">
@@ -244,7 +247,7 @@
           771-699-9413
         </p>
         <p><a href="https://goo.gl/maps/Mk85cF9JJLrfAVKT8">
-          📍</a></p>
+            📍</a></p>
       </div>
     </section>
     <div class="attribution">

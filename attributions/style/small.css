@@ -308,7 +308,7 @@ h3 {
 
 main {
 
-  background-color: #dff3f9;
+  background-color: #AEB08E;
 }
 
 main .content {
@@ -522,7 +522,7 @@ main .content {
 
 .attribution_content {
   margin: 30px 20px;
-  box-shadow: 3px 3px 10px rgb(54 54 54);
-  background-color: #AEB08E;
+  text-align: center;
+
   padding: 15px;
 }

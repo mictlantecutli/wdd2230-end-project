@@ -315,6 +315,19 @@ main .content {
 
 }
 
+
+main .content h1 {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  font-size: 20px;
+
+}
+
+.content .image_full_width picture {
+  position: relative;
+}
+
 main h2 {
   text-align: center;
 }
@@ -416,8 +429,8 @@ main h2 {
 
 .section_genealogy h3 {
   position: absolute;
-  top: 100px;
-  right: 200px;
+  top: 30px;
+  right: 35px;
   color: white;
   font-size: 40px;
   text-shadow: 0 2px 3px #32292f;
@@ -425,13 +438,14 @@ main h2 {
 }
 
 .section_genealogy p {
-  font-size: 25px;
+
+  font-size: 15px;
   position: absolute;
-  top: 250px;
-  right: 50px;
+  top: 80px;
+  right: 30px;
   color: black;
-  background-color: #aeb08e50;
-  padding: 20px;
+  background-color: #aeb08ebc;
+  padding: 0px;
 
 }
 
@@ -445,6 +459,20 @@ main h2 {
   grid-template-columns: 1fr;
 
 }
+
+.activities {
+  position: relative;
+}
+
+.activities h2 {
+  font-size: 40px;
+  top: 60px;
+  left: 50px;
+  position: absolute;
+
+}
+
+
 
 .activities img {
   width: 100%;

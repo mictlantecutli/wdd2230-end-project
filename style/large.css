@@ -114,6 +114,32 @@
     display: block;
   }
 
+  main .content h1 {
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    font-size: 40px;
+
+  }
+
+
+  .section_genealogy h3 {
+
+
+    top: 100px;
+    right: 200px;
+
+  }
+
+  .section_genealogy p {
+    font-size: 30px;
+
+    top: 250px;
+    right: 400px;
+
+
+  }
+
 
   /***********************************************************/
   /***************activities-weather section******************/

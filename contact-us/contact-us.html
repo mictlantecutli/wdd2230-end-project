@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="This page is for the form to reserve in the Hotel">
+  <meta name="description" content="This page is when the user contact us by whatever concerns">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/normalize.css">
   <link rel="stylesheet" href="style/small.css">
@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
 
-  <title>Form to reserve in Temple Hotel</title>
+  <title>Thanks Contact Us</title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
     <div class="container_main_header">
       <div class="container_btn">
         <div class="btn_call_action">
-          <a href="#link_top_btn">Book now!</a>
+          <a href="form/form.html">Book now!</a>
         </div>
       </div>
 
@@ -41,7 +41,7 @@
           <ul class="menu">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../temple/temple.html">Temple</a></li>
-            <li><a href="form.html">Reservation</a></li>
+            <li><a href="../form/form.html">Reservation</a></li>
             <li>
               <a href="#">Services</a>
               <ul>
@@ -54,91 +54,47 @@
 
       </div>
 
-      <div class="alert"></div>
+
     </div>
   </header>
   <aside class="alert"></aside>
 
-  <!--Reserve Form-->
+
   <main>
-    <div class="content">
-      <h2>Reservation Form</h2>
-      <div class="form_reserve">
+    <div class="container_thanks">
+      <article class="image_thanks">
+        <picture>
+          <img src="images/my_photo.webp" alt="icon of appointment ">
+        </picture>
+      </article>
 
-        <form method="get" action="../thanks_page/thanks.html">
-          <fieldset>
-            <legend>Client Information</legend>
-            <label class="top">First Name*<input type="text" name="fname" required></label>
-            <label class="top">Last Name*<input type="text" name="lname" required></label>
-            <label class="top">Phone<input type="tel" name="phone" placeholder="1234446789"></label>
-            <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label class="top">City<input type="text" name="city"></label>
-            <label class="top">State/Province<input type="text" name="province"></label>
-          </fieldset>
+      <article>
+        <h1>Thank you for contact us!</h1>
+        <h2>we will contact you shortly...</h2><br>
+        <p>My name is Moisés Parra Lozano, thank you for contacting us by this means, in a period of 20 minutes we will
+          be sending you an email to put us at your service, whatever your question or the details you require, if I do
+          not know the answer, I will investigate it with pleased to meet you.
 
-          <fieldset>
-            <legend id="link_top_btn">Reservation Information</legend>
+          Have a great day!</p>
+      </article>
 
-            <label class="top">Number of Adults*
-              <input type="number" id="adults" name="adults" placeholder="Number of adults" required>
-            </label>
-
-            <label class="top">Number of Children*
-              <input type="number" id="children" name="children" placeholder="Number of children" required>
-            </label>
-
-
-            <label class="top">Check-in Date*
-              <input type="date" id="checkin" name="checkin" placeholder="mm/dd/yyyy" required>
-            </label>
-
-            <label class="top">Check-out Date*
-              <input type="date" id="checkout" name="checkout" placeholder="mm/dd/yyyy" required>
-            </label>
-
-
-            <label class="top">Number of Rooms*
-              <input type="number" id="rooms" name="rooms" placeholder="Number of rooms" required>
-            </label>
-
-
-            <label class="top">Comments(optional)<textarea name="description"
-                placeholder="Type here..."></textarea></label>
-
-
-
-
-            <input type="hidden" id="dateHidden" name="dateHidden" value="date">
-            <input type="hidden" id="timeHidden" name="timeHidden" value="time">
-
-          </fieldset>
-
-
-
-
-          <div class="button_book">
-            <input type="submit" value="BOOK NOW!" class="submitBtn">
-          </div>
-
-        </form>
-
-
-
-      </div>
     </div>
+
   </main>
-  <!--Finish Reserve Form-->
+
+
 
   <footer>
     <section class="footer_above">
       <a href="https://www.facebook.com/moises.parra.52206/"><picture class="face"><img src="../images/icon_face.png" alt="image of social facebook"></picture></a>
-      <a href="https://twitter.com/?lang=es"><picture class="twitter"><img src="../images/icon_twitter.png" alt="image of social twiter"></picture></a>
+      <a href="https://twitter.com/?lang=es"><picture class="twitter"><img src="../images/icon_twitter.png" alt="image of social twitter"></picture></a>
 
 
-      <form method="get" action="../contact-us/contact-us.html">
+      <form method="get" action="contact-us.html">
+
 
         <div class="join_us">
-          <h4>FOR MORE DETAILS</h4>
+          <legend>FOR MORE DETAILS</legend>
         </div>
 
         <input type="text" name="fname" placeholder="Your Name*" required>
@@ -166,12 +122,10 @@
           771-699-9413
         </p>
         <p><a href="https://goo.gl/maps/Mk85cF9JJLrfAVKT8">
-          📍</a></p>
+            📍</a></p>
       </div>
     </section>
-    <div class="attribution">
-      <span>Attributions:</span><a href="../attributions/attributions.html"> Learn more here</a>
-    </div>
+
 
     <div class="copyright">
       &copy;<span class="year"></span>&#9621; The Temple Inn & Suites&#9621; Moisés Parra&#9621; WDD 230 Project

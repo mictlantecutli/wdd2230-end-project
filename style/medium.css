@@ -139,6 +139,34 @@
   }
 
 
+  main .content h1 {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    font-size: 30px;
+
+  }
+
+  .section_genealogy p {
+    font-size: 25px;
+
+    top: 130px;
+    right: 90px;
+
+
+  }
+
+
+
+  .activities h2 {
+    font-size: 50px;
+    top: 100px;
+    left: 50px;
+
+
+  }
+
+
   /************************************************************/
   /*****************THE SECTION OF TEMPLES*********************/
   /************************************************************/

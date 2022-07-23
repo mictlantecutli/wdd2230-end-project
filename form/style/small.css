@@ -205,6 +205,7 @@ form .join_us {
 
 
 .footer_above form {
+  justify-items: center;
 
   display: block;
   grid-row: 2;

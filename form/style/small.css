@@ -199,12 +199,10 @@ form button.btn_form {
 form .join_us {
   display: grid;
   justify-content: center;
+  color: black;
 }
 
-form .join_us h4 {
-  color: black;
-  font-size: 15px;
-}
+
 
 .footer_above form {
 

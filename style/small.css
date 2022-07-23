@@ -318,13 +318,13 @@ main .content {
 
 main .content h1 {
   position: absolute;
-  top: 300px;
+  top: 100px;
   left: 50px;
   font-size: 20px;
 
 }
 
-.content .image_full_width picture {
+.content .image_full_width {
   position: relative;
 }
 

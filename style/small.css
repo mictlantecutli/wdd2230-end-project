@@ -388,7 +388,7 @@ main h2 {
 
 }
 
-.container_temples picture img {
+.container_temples div img {
   width: 100%;
   height: 100%;
 
@@ -398,7 +398,7 @@ main h2 {
 }
 
 /************the effect in the cards of temples***************/
-.container_temples picture img:hover {
+.container_temples div img:hover {
   box-shadow: 0 0 50px #333;
 }
 

@@ -169,7 +169,7 @@ header .btn_call_action a {
 
 .footer_above {
   display: grid;
-  grid-template-columns: 1fr 50px 50px 1fr;
+  grid-template-columns: 1fr 80px 80px 1fr;
   gap: 20px;
   align-items: center;
   justify-items: right;

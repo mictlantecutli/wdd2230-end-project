@@ -173,8 +173,9 @@ header .btn_call_action a {
   display: grid;
   grid-template-columns: 1fr 80px 80px 1fr;
   gap: 20px;
-
   margin: 30px;
+  align-items: center;
+  justify-items: center;
 
 }
 

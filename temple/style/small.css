@@ -560,13 +560,26 @@ main .content {
   background-color: #AEB08E;
   margin: 20px;
   border-radius: 15px;
+  padding: 40px;
 
 }
 
 
-.temple_cards section .containerLike {
+.temple_cards section .containerLike1,
+.containerLike2,
+.containerLike3,
+.containerLike4 {
   margin: 0 auto;
   text-align: center;
+}
+
+.temple_cards section img {
+  width: 20%;
+}
+
+.temple_cards section img:hover {
+  cursor: pointer;
+  background-color: #E7BF0A;
 }
 
 .temple_cards button {

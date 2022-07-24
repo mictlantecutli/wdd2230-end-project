@@ -96,8 +96,6 @@ function displayTemples(temple, i=0) {
 
   //Here I did the count of the likes with and track it in the local storage
 
-
-
   let counter = 0;
   btnLike.onclick = function () {
     counter++;

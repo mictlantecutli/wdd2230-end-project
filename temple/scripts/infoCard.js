@@ -104,7 +104,6 @@ function displayTemples(temple) {
   
 
 
-
   }
 
 
@@ -113,16 +112,6 @@ function displayTemples(temple) {
   
 
   displayLikes.textContent = numLikes;
-
-
- 
-    
-    
-
-
-
-
-
 
 
 

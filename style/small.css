@@ -166,6 +166,25 @@ header .btn_call_action a {
 
 }
 
+/***************ALERT!!!!!!!!!**************************/
+.alert {
+  display: flex;
+  flex-direction: column;
+  grid-row: 2;
+  grid-column: 1/5;
+  justify-content: center;
+  background-color: red;
+  color: white;
+}
+
+.alert button {
+  color: blue;
+}
+
+/***************ALERT!!!!!!!******************************/
+
+
+
 /***********************************************************/
 /*************************footer****************************/
 /***********************************************************/
@@ -335,6 +354,8 @@ main h2 {
 .content .image_full_width img {
   width: 100%;
 }
+
+
 
 .content .temple_main {
   display: grid;

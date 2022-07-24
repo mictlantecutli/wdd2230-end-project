@@ -15,7 +15,9 @@ fetch(requestURL)
   });
 
 
-function displayTemples(temple) {
+function displayTemples(temple, i=0) {
+
+  console.log(i++)
   // Create elements to add to the document
   let templeSection = document.createElement('section');
 
@@ -54,18 +56,18 @@ function displayTemples(temple) {
   //let displayLikes = document.createElement('p');
 
   let containerLike = document.createElement(`section`);
-  containerLike.setAttribute('class', 'containerLike');
-
- 
+  containerLike.setAttribute('class', `containerLike${i}`);
 
 
- 
-  let btnLike = document.createElement(`button`);
+
+
+
+
+  let btnLike = document.createElement(`button${i}`);
+  console.log(btnLike)
+
+
   let displayLikes = document.createElement(`p`);
-
-
-
-
 
 
 
@@ -91,30 +93,32 @@ function displayTemples(temple) {
   headingClosure.textContent = "TEMPLE CLOSURE SCHELUDE";
 
 
-  
+
+  //Here I did the count of the likes with and track it in the local storage
+
+
 
   let counter = 0;
- 
-
   btnLike.onclick = function () {
     counter++;
 
-    localStorage.setItem("likes1", counter);
+    localStorage.setItem(`likes${i}`, counter);
 
     displayLikes.textContent = counter;
 
-  
-
-
   }
 
-
-  let numLikes = Number(window.localStorage.getItem("likes1"));
+  let numLikes = Number(window.localStorage.getItem(`likes${i}`));
   counter = numLikes
 
-  
 
   displayLikes.textContent = numLikes;
+
+
+
+
+
+
 
 
 

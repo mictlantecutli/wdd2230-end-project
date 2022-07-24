@@ -560,7 +560,7 @@ main .content {
   background-color: #AEB08E;
   margin: 20px;
   border-radius: 15px;
-  padding: 40px;
+  padding: 20px;
 
 }
 
@@ -579,7 +579,7 @@ main .content {
 
 .temple_cards section img:hover {
   cursor: pointer;
-  background-color: #E7BF0A;
+  box-shadow: 0 0 50px rgb(235, 208, 2);
 }
 
 .temple_cards button {

@@ -101,6 +101,8 @@ function displayTemples(temple) {
 
     localStorage.setItem("likes1", counter);
 
+    displayLikes.textContent = counter;
+
   
 
 
@@ -108,6 +110,7 @@ function displayTemples(temple) {
 
 
   let numLikes = Number(window.localStorage.getItem("likes1"));
+  counter = numLikes
 
   
 

@@ -179,6 +179,13 @@ header .btn_call_action a {
 
 .alert button {
   color: blue;
+
+}
+
+.alert button:hover {
+  color: white;
+  background-color: #f0d781;
+  cursor: pointer;
 }
 
 /***************ALERT!!!!!!!******************************/
